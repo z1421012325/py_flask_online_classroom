@@ -1,0 +1,5 @@
+obj=run.py
+
+.PHONY:run
+run:
+    python $(obj) runserver
