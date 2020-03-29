@@ -10,29 +10,7 @@ from OnlineClassroom.app.utils.get_token import check_token,create_token,requst_
 
 user = Blueprint('user_api_v1',__name__)
 
-# @user.before_request
-# def filter_is_token():
-#
-#     list_not_check_token_router = [
-#         url_for("login"),
-#         url_for("registry"),
-#         url_for("get_user_info"),
-#     ]
-#
-#     # not_filter = ["login", "registry", "register"]
-#     for p in list_not_check_token_router:
-#         print("url_for :> ",p)
-#         if p in request.path:
-#             return None
-#
-#     token = requst_get_token()
-#     ok, aid = check_token(token)
-#     if ok:
-#         return None
-#     return jsonify(token_err(""))
 
-
-# 登录
 @user.route("login",methods=["POST"])
 def login():
 

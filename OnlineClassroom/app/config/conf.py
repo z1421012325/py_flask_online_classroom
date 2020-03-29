@@ -27,16 +27,17 @@ class config():
 
     SECRET_KEY      = 'SD15DFG1G4D231X86HF1GDSF{}cxCV156DSRFCVDFG'  # .format(os.urandom(10))
 
-
-
     # 是否开启wtf表单 防范csrf攻击
     WTF_CSRF_ENABLED = False
+    # 返回json字符串为utf-8
+    JSON_AS_ASCII = True
 
     # 数据库操作时是否显示原始SQL语句
-    SQLALCHEMY_ECHO = True
+    SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_POOL_SIZE = 20
+    SQLALCHEMY_POOL_SIZE = 10
     SQLALCHEMY_MAX_OVERFLOW =50
+
     # email
     MAIL_SERVER     = 'smtp.qq.com'
     MAIL_PORT       = 465
@@ -54,7 +55,7 @@ class config():
     BUCKET_NAME = "demo-online-classroom"
 
 
-class DevelopConfig(config):
+class DeBugConfig(config):
     DEBUG = True
     SQLALCHEMY_DATABASE_URI = init_db_url()
 
@@ -66,13 +67,13 @@ class TestConfig(config):
 
 # 上线生产环境
 class ProducConfig(config):
-    DEBUG = True
-    TESTING = True
+    DEBUG = False
+    TESTING = False
     SQLALCHEMY_DATABASE_URI = init_db_url()
 
 
 env = {
-    "a":DevelopConfig,
+    "a":DeBugConfig,
     "b":TestConfig,
     "c":ProducConfig
 }

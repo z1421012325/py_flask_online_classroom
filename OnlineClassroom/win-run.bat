@@ -1,2 +1,1 @@
-python run.py runserver
-
+python .\run.py -p 9999 -config a
