@@ -1,5 +1,5 @@
 # 下载虚拟环境virtualenv
-pip3 install virtualenv
+pip install virtualenv
 
 # 创建文件夹并进入
 mkdir myproject
@@ -14,7 +14,7 @@ git cloen git@github.com:z1421012325/py_flask_online_classroom.git
 cd py_flask_online_classroom
 
 # 下载依赖库
-pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ 
+pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ 
 
 # 启动
 # chmod +x linux-run.sh
