@@ -23,5 +23,7 @@ pip3 install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/
 chmod +x gunicorn_flask_web.sh
 ./gunicorn_flask_web.sh
 
-# 开启负载均衡nginx
+# 开启负载均衡nginx....
+
+
 
