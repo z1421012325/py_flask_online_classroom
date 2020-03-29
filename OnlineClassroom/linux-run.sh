@@ -1,1 +1,1 @@
-python3 ./run.py runserver
+python3 ./run.py -p 9999 -config c

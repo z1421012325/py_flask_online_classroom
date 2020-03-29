@@ -33,7 +33,13 @@ def cmd_host_debug_option():
     return debug,port,option_config
 
 if __name__ == "__main__":
+	# debug,test cmd:"python run.py -p 9999 -debug -config a" or b
+	# python run.py 端口随机,默认为生产环境
     debug,port,option = cmd_host_debug_option()
+	
+    if option == "":
+        option = "c"   # 默认生产环境
+	
     app = create_app(option)
     app.run(host="0.0.0.0", port=port, debug=debug)
 
@@ -42,3 +48,4 @@ if __name__ == "__main__":
     # manage.run()
     # python run.py runserver
 
+	# gunicron 托管则不需要设置host,port,由gunicorn启动wsgi网关

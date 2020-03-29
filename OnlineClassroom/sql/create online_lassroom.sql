@@ -17,6 +17,15 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+
+/*
+	增加创建数据库 online_classroom
+*/
+
+CREATE DATABASE online_classroom;
+USE online_classroom;
+
+
 -- ----------------------------
 -- Table structure for accounts
 -- ----------------------------

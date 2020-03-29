@@ -1,1 +1,1 @@
-python .\run.py -p 9999 -config a
+python .\run.py -p 9999 -config c

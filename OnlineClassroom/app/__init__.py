@@ -9,8 +9,9 @@ from OnlineClassroom.app.ext import plugins
 def create_app(option):
     app = Flask(__name__)
 
+
     # 配置加载
-    app.config.from_object(conf.env.get(str(option) if option != None else "a","a"))
+    app.config.from_object(conf.env.get(option,"a"))
 
     # 插件加载
     plugins.ext_init(app)

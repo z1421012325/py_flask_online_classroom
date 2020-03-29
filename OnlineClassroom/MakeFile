@@ -1,5 +1,5 @@
-obj=run.py
+obj=./run.py
 
 .PHONY:run
 run:
-    python $(obj) runserver
+    python $(obj) -p 9999 -config c
