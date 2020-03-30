@@ -195,10 +195,14 @@ class Account(db.Model):
 
     def get_aid_user_to_serializetion(self):
         u = self.query.filter(Account.aid==self.aid).first()
+        if u == None:
+            return ""
         return u.serializetion_item()
 
     def get_aid_user(self):
         u = self.query.filter(Account.aid==self.aid).first()
+        if u == None:
+            return None
         return u
 
     def prohibit_user(self,admin_aid):
@@ -243,6 +247,8 @@ class Account(db.Model):
 
     def get_aid_is_UsersTeacherStatus(self):
         u = self.query.filter_by(aid=self.aid).first()
+        if u == None:
+            return None
         return u.is_UsersTeacherStatus()
 
 

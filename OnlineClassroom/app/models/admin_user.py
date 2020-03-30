@@ -87,24 +87,33 @@ class Admin_Users(db.Model):
 
 
     def save(self):
-        self.r_id if self.r_id == None else 1
+        if self.r_id == None:
+            self.r_id = 1
         self.set_pswd(self.pswd)
         return self.is_commit()
 
 
     def get_user_activation(self):
         u = self.query.filter_by(username=self.username,status=self.status_lever_2).first()
+        if u == None:
+            return None
         return u
 
     def get_user_unactivation(self):
         u = self.query.filter_by(username=self.username, status =self.status_lever_1).first()
+        if u == None:
+            return None
         return u
 
     def get_user_aid_unactivation(self):
         u = self.query.filter_by(aid=self.aid, status=self.status_lever_1).first()
+        if u == None:
+            return None
         return u
     def get_user_aid_activation(self):
         u = self.query.filter_by(aid=self.aid, status=self.status_lever_2).first()
+        if u == None:
+            return None
         return u
 
     def check_login_user_pswd(self,input_pswd):

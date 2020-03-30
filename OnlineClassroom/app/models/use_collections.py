@@ -62,7 +62,6 @@ class Use_collections(db.Model):
 
 
     # 查询收藏课程
-    # todo 测试一下
     def query_use_curriculms(self):
 
         datas = {}

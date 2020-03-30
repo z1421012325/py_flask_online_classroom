@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from .OnlineClassroom.app import create_app
+from OnlineClassroom.app import create_app
 
 app = create_app()
 

@@ -124,6 +124,8 @@ class Curriculums(db.Model):
     # 查询单个课程并返回dict
     def query_also_serialize(self):
         cc = self.query_curriculum_is_not_del()
+        if not cc:
+            return None
         return cc.serialize_item()
 
     def query_curriculum_is_not_del(self):
@@ -148,16 +150,18 @@ class Curriculums(db.Model):
 
     def json_relation_user_nickname_is_null(self):
         if self.user == None:
-            return ""
+            return None
         return self.user.nickname
 
     def json_time_is_null(self):
         if self.create_at == None:
-            return ""
+            return None
         return self.create_at.strftime('%Y-%m-%d %H:%M:%S')
 
     def query_modify_curriculum_people(self):
         c = self.query.filter_by(cid=self.cid,delete_at=None).first()
+        if c == None:
+            return None
         return c
 
     def modify_curriculum_info(self,name,price,info,cimage):

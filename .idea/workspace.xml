@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54568d6-d230-4980-bd34-432c43c8615f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/gunicorn_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineClassroom/sql/create_online_lassroom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/sql/create_online_classroom.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +37,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>GET&quot;</find>
+      <find>info</find>
+      <find>serialize</find>
+      <find>return</find>
+      <find>todo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -38,15 +51,22 @@
       <list>
         <option value="$PROJECT_DIR$/OnlineClassroom/test_cmd.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/user.py" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/MakeFile" />
         <option value="$PROJECT_DIR$/OnlineClassroom/start.sh" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/linux-run.sh" />
         <option value="$PROJECT_DIR$/OnlineClassroom/win-run.bat" />
         <option value="$PROJECT_DIR$/OnlineClassroom/run.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" />
+        <option value="$PROJECT_DIR$/new_gunicorn_flask_web.sh" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" />
       </list>
     </option>
   </component>
@@ -142,12 +162,12 @@
       <updated>1585449123930</updated>
       <workItem from="1585449126780" duration="5156000" />
       <workItem from="1585493307941" duration="2309000" />
-      <workItem from="1585552705467" duration="2841000" />
+      <workItem from="1585552705467" duration="6554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10306000" />
+    <option name="totallyTimeSpent" value="14019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -214,13 +234,6 @@
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/gunicorn_flask_web.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="75" column="20" lean-forward="true" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -228,24 +241,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/registry_blue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>
@@ -273,20 +272,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#16#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/gunicorn_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_gunicorn_flask_web.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="295" column="14" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/admin_role.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="272" column="12" lean-forward="true" selection-start-line="272" selection-start-column="12" selection-end-line="272" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/curriculum_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="214" column="14" selection-start-line="214" selection-start-column="8" selection-end-line="214" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/utils/aliyun_oss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/extracts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="136" column="14" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/money.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/purchases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/shopping_carts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="143" column="14" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="489" column="14" selection-start-line="489" selection-start-column="8" selection-end-line="489" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/teacher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>

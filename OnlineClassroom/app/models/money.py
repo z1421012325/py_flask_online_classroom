@@ -74,6 +74,8 @@ class Money(db.Model):
 
     def get_user_money(self):
         m = self.query.filter_by(aid=self.aid).first()
+        if m == None:
+            return None
         return m.money
 
 

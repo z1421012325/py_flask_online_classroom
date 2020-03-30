@@ -135,9 +135,6 @@ def curriculum_recommend(aid):
 
 
 
-
-
-# todo 上传文件无法预览,下载也是无法观看  难道是origin限制?还是其他?
 # 给予aliyun-oss凭证 让前端去aliyun-oss上传
 @curriculum_.route("/get/oss/token", methods=["POST"])
 def get_oss_token():

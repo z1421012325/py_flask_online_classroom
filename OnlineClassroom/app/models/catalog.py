@@ -55,7 +55,10 @@ class Catalog(db.Model):
         return items
 
     def query_catalog_object(self):
-        return self.query.filter_by(cat_id=self.cat_id,id=self.id, delete_at=None).first()
+        cat = self.query.filter_by(cat_id=self.cat_id,id=self.id, delete_at=None).first()
+        if cat == None:
+            return None
+        return cat
 
     def del_catalog(self):
         self.delete_at = datetime.datetime.now()

@@ -12,7 +12,7 @@ def init_db_url():
     db_password = load_env().get("MYSQL_DB_PASSWORD","zyms90bdcs")
     db_port     = load_env().get("MYSQL_DB_PORT","localhost")
     db_host     = load_env().get("MYSQL_DB_HOST","3306")
-    db_dataname = load_env().get("MYSQL_DB_PASSWORD","online_lassroom")
+    db_dataname = load_env().get("MYSQL_DB_PASSWORD","online_lassroom")  # 这里写错了.. 实际为online_classroom
 
     sql_address = "mysql+mysqlconnector://{}:{}@{}:{}/{}".format(db_username,db_password,db_port,
     db_host,db_dataname)
