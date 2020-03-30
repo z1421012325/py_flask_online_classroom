@@ -11,7 +11,7 @@ source venv/bin/activate
 
 # git下载项目到该目录并进入
 git cloen git@github.com:z1421012325/py_flask_online_classroom.git
-cd py_flask_online_classroom
+cd py_flask_online_classroom/OnlineClassroom
 
 # 下载依赖库
 pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ 
