@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54568d6-d230-4980-bd34-432c43c8615f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/curriculums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/gunicorn_run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/sql/create_online_lassroom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/sql/create_online_classroom.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +11,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/x$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1585589653469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/x$test.coverage" NAME="test Coverage Results" MODIFIED="1585589910044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnlineClassroom/app/config" />
     <SUITE FILE_PATH="coverage/x$test_cmd.coverage" NAME="test_cmd Coverage Results" MODIFIED="1585450917741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnlineClassroom" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+                <element signature="e#242#300#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="19" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +72,6 @@
         <option value="$PROJECT_DIR$/OnlineClassroom/run.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" />
         <option value="$PROJECT_DIR$/new_gunicorn_flask_web.sh" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/models/account.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/models/admin_user.py" />
@@ -67,6 +80,10 @@
         <option value="$PROJECT_DIR$/OnlineClassroom/app/models/money.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/models/use_collections.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/config.ini" />
+        <option value="$PROJECT_DIR$/TEST.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/test.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" />
       </list>
     </option>
   </component>
@@ -97,6 +114,19 @@
               <item name="x" type="462c0819:PsiDirectoryNode" />
               <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -108,6 +138,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Myz\Desktop\x\OnlineClassroom\app\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Myz\Desktop\x\OnlineClassroom" />
+      <recent name="C:\Users\Myz\Desktop\x" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,7 +160,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="x" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="x" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OnlineClassroom/app/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OnlineClassroom/app/config/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_cmd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="x" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +229,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.TEST" />
         <item itemvalue="Python.test_cmd" />
       </list>
     </recent_temporary>
@@ -162,21 +247,22 @@
       <updated>1585449123930</updated>
       <workItem from="1585449126780" duration="5156000" />
       <workItem from="1585493307941" duration="2309000" />
-      <workItem from="1585552705467" duration="6554000" />
+      <workItem from="1585552705467" duration="9402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14019000" />
+    <option name="totallyTimeSpent" value="16867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21299094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -279,13 +365,6 @@
           <folding>
             <element signature="e#16#47#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -421,6 +500,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python3.7/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="600" column="31" selection-start-line="600" selection-start-column="31" selection-end-line="600" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="19" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+            <element signature="e#242#300#0" />
+          </folding>
         </state>
       </provider>
     </entry>
