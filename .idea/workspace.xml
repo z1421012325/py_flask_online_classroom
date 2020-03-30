@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a54568d6-d230-4980-bd34-432c43c8615f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" afterDir="false" />
-    </list>
+    <list default="true" id="a54568d6-d230-4980-bd34-432c43c8615f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,26 +13,31 @@
     <SUITE FILE_PATH="coverage/x$test.coverage" NAME="test Coverage Results" MODIFIED="1585589910044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnlineClassroom/app/config" />
     <SUITE FILE_PATH="coverage/x$test_cmd.coverage" NAME="test_cmd Coverage Results" MODIFIED="1585450917741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OnlineClassroom" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="370">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
                 <element signature="e#242#300#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="19" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -108,24 +111,6 @@
             <path>
               <item name="x" type="b2602c69:ProjectViewProjectNode" />
               <item name="x" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x" type="462c0819:PsiDirectoryNode" />
-              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x" type="462c0819:PsiDirectoryNode" />
-              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="x" type="462c0819:PsiDirectoryNode" />
-              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,16 +232,15 @@
       <updated>1585449123930</updated>
       <workItem from="1585449126780" duration="5156000" />
       <workItem from="1585493307941" duration="2309000" />
-      <workItem from="1585552705467" duration="9402000" />
+      <workItem from="1585552705467" duration="9655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16867000" />
+    <option name="totallyTimeSpent" value="17120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21299094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +262,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32930514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -545,10 +522,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="27" column="11" selection-start-line="27" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/config/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="370">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
             <element signature="e#242#300#0" />
