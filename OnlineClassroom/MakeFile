@@ -1,5 +1,0 @@
-obj=./run.py
-
-.PHONY:run
-run:
-    python $(obj) -p 9999 -config c
