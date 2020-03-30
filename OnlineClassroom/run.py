@@ -32,6 +32,11 @@ def cmd_host_debug_option():
             option_config = str(argvs[index + 2])
     return debug,port,option_config
 
+
+def return_app():
+    return app
+
+
 if __name__ == "__main__":
 	# debug,test cmd:"python run.py -p 9999 -debug -config a" or b
 	# python run.py 端口随机,默认为生产环境
