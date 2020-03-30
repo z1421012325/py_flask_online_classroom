@@ -33,9 +33,6 @@ def cmd_host_debug_option():
     return debug,port,option_config
 
 
-def return_app():
-    return app
-
 
 if __name__ == "__main__":
 	# debug,test cmd:"python run.py -p 9999 -debug -config a" or b

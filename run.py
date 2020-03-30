@@ -1,8 +1,8 @@
 # coding=utf-8
 
-from .OnlineClassroom.run import return_app
+from .OnlineClassroom.app import create_app
 
-
+app = create_app()
 
 if __name__ == '__main__':
-    return_app().run(debug=False)
+    app.run(debug=False)

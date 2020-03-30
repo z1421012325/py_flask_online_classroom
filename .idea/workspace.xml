@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a54568d6-d230-4980-bd34-432c43c8615f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/gunicorn_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/gunicorn_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineClassroom/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineClassroom/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineClassroom/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +40,12 @@
         <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/user.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/config/conf.py" />
         <option value="$PROJECT_DIR$/OnlineClassroom/MakeFile" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/win-run.bat" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/linux-run.sh" />
         <option value="$PROJECT_DIR$/OnlineClassroom/start.sh" />
         <option value="$PROJECT_DIR$/OnlineClassroom/app/views/user/v1/handlers/curriculum.py" />
-        <option value="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/linux-run.sh" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/win-run.bat" />
         <option value="$PROJECT_DIR$/OnlineClassroom/run.py" />
+        <option value="$PROJECT_DIR$/OnlineClassroom/app/__init__.py" />
         <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
@@ -72,6 +71,11 @@
             <path>
               <item name="x" type="b2602c69:ProjectViewProjectNode" />
               <item name="x" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="x" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineClassroom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,12 +142,12 @@
       <updated>1585449123930</updated>
       <workItem from="1585449126780" duration="5156000" />
       <workItem from="1585493307941" duration="2309000" />
-      <workItem from="1585552705467" duration="2027000" />
+      <workItem from="1585552705467" duration="2841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9492000" />
+    <option name="totallyTimeSpent" value="10306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -190,13 +194,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/test_cmd.py" />
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/win-run.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/MakeFile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -211,13 +208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/linux-run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -259,20 +249,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/win-run.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#16#47#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/linux-run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OnlineClassroom/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#16#26#0" expanded="true" />
           </folding>
@@ -281,8 +275,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineClassroom/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

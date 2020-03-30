@@ -6,7 +6,7 @@ from OnlineClassroom.app.config import conf
 from OnlineClassroom.app.ext import plugins
 
 
-def create_app(option):
+def create_app(option=None):
     app = Flask(__name__)
 
     if option == "" or option == None:
