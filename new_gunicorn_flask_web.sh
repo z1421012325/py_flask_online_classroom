@@ -1,7 +1,7 @@
 # 假设服务器yum,python3.x版本,pip3,git 配置完整
 
 # 下载虚拟环境包
-pip install virtualenv
+pip3 install virtualenv
 
 mkdir code && cd code
 
@@ -15,7 +15,7 @@ git clone git@github.com:z1421012325/py_flask_online_classroom.git
 
 # 进入项目并下载依赖和gunicorn托管flask_web应用
 cd py_flask_online_classroom
-pip install -r requirements.txt && pip install gunicorn
+pip3 install -r requirements.txt && pip3 install gunicorn
 
 # 托管
 gunicorn -w 4 -b 0.0.0.1:9001 run:app
